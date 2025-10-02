@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>健康チェックフォーム</title>
+</head>
+<body>
+  <h2>健康チェックフォーム</h2>
+  <form action="#" method="post">
+    <label>① 寝不足じゃないすか？</label><br>
+    <select name="sleep">
+      <option value="yes">はい</option>
+      <option value="no">いいえ</option>
+    </select><br><br>
+
+    <label>② 朝ごはんは食べましたか？</label><br>
+    <select name="breakfast">
+      <option value="yes">はい</option>
+      <option value="no">いいえ</option>
+    </select><br><br>
+
+    <label>③ 体温はいくつですか？</label><br>
+    <input type="number" name="temperature" step="0.1"><br><br>
+
+    <label>④ その他何かありますか？</label><br>
+    <textarea name="notes"></textarea><br><br>
+
+    <label>⑤ 今日は何日ですか？</label><br>
+    <input type="date" name="date"><br><br>
+
+    <button type="submit">送信</button>
+  </form>
+</body>
+</html>
